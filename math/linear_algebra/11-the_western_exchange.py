@@ -1,11 +1,10 @@
-
 #!/usr/bin/env python3
 """_summary_
-Contains a function that returns the shape of a numpy.ndarray
+Contains a function that returns the transpose of a numpy.ndarray
 """
 
 
-def np_shape(matrix):
+def np_transpose(matrix):
     """_summary_
 
     Args:
@@ -14,4 +13,4 @@ def np_shape(matrix):
     Returns:
         _type_: _description_
     """
-    return tuple(matrix.shape)
+    return matrix.T
