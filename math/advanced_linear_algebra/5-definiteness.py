@@ -47,4 +47,3 @@ def definiteness(matrix):
     else:
         print("Here")
         return None
-    
